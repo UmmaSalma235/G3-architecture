@@ -1,0 +1,64 @@
+/*work sans*/
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,800&family=Work+Sans:wght@300;400;800&display=swap');
+</style>
+/*shares style*/
+*{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+.btn-primary{
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    font-size: 1.25rem;
+    padding: 20px 25px;
+    cursor: pointer;
+    border: 0;
+}
+
+/*header style*/
+.header{
+    background-color:aqua;
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-tittle{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: font-weight: 500;
+    font-size: 1rem
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/*banner related style*/
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.banner-tittle{
+    color: #131313;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-description{
+    color: var(--Dark-03, #727272);
+}
